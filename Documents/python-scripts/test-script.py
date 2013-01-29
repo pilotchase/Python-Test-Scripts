@@ -9,7 +9,7 @@ input("   www.youtube.com/user/ghostsquad57")
 
 # You can print multiple values with a single call to the "print()" function-just list multiple arguments values, seperated by commas.
 # I print multiple values with the following line:
-print("\nLinux is", "a \"Kernal\"", "NOT an Operating System!")
+print("\nLinux is", "a \"Kernal\"", "NOT a Operating System!")
 
 # Using "Triple-Quote Strings" to print ASCII art:
 print('''
