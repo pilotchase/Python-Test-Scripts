@@ -15,7 +15,6 @@ if question1 == "y":
 if question1 == "n":
 	print("\nYou tell the waiter you have no money to tip him \nand he walks away with a look of disappointment in his face")
 
-
 elif question2 >= 1:
 	print("\nThank you! \nThe waiter says with a smile on his face")
 elif question2 <= 0:

@@ -83,4 +83,14 @@ dice2 = random.randint(1, 6)
 total = dice1 + dice2
 print("You rolled a", dice1, "and a", dice2, "for a total of", total)
 
+# Demonstrats the "continue" and "break" statment
+count = 0
+while True:
+	count += 1
+	if count > 10:
+		break
+	if count == 5:
+		continue
+	print(count)
+
 input("\nThis is the end of this script. Press the enter key to close")
