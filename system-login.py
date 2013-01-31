@@ -16,11 +16,11 @@ password = ""
 while not password:
 	password = input("Password ")
 
-if username == "keifers" and password == "577500":
+if username == "ghostsquad57" and password == "foo":
 	print("\nWelcome, Keifers")
 	security = 10
-elif username == "timothy" and password == "timdaking":
-	print("\nWelcome, King Tim")
+elif username == "tux" and password == "linux":
+	print("\nWelcome, Tux")
 	security = 7
 elif username == "guest" or password == "guest":
 	print("\nWelcome, Guest")
