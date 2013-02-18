@@ -27,7 +27,7 @@ print('''
 print("\"Python is simple, lightweight, and fast\"")
 
 # Combining strings with "+" operator
-print("\nThis " + "is " + "the " + "end " + "of " + "this " + "script ", end = " ")
+print("\nThis " + "is " + "the " + "end " + "of " + "this " + "script\n")
 
 # List of "escape sequences
 # \\ Backlash. Prints 1 backlash

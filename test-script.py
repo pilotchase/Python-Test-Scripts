@@ -1,5 +1,6 @@
 # Python test script made for learning purposes
 # Note that this script was made to be executed with Python version 3.2
+
 # Creating a "variable"
 name = "GhostSquad57"
 
@@ -89,7 +90,7 @@ while True:
 	count += 1
 	if count > 10:
 		break
-	if count == 5:
+	if count == 11:
 		continue
 	print(count)
 
