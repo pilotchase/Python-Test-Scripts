@@ -13,7 +13,7 @@ for i in range(10):
 	print("word[", position, "]\t", word[position])
 
 # Printing a string backwards using string indexing
-word = input("\nEnter another word: ")
+word = input("\nNow enter a five letter word: ")
 print(word[-1])
 print(word[-2])
 print(word[-3])
