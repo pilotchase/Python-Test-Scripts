@@ -10,7 +10,7 @@ for letter in word:
 for i in range(5):
 	print(word, "\nHuh. You ever get the feeling of Deja Vu?")
 
-# Using the "range()" function with loop to count numbers
+# Using the "range()" function with "for" to count numbers
 print("\nCounting:")
 for i in range(11):
 	print(i, end=" ")
@@ -35,13 +35,19 @@ question = input("\n[y/n] ")
 
 if question == 'y':
 	print("\nI'm glad I got it right")
-elif question == 'n':
-	print("\nOh, I'm sorry. Please re-enter your name: ")
-	firstname = input("\nWhat's your first name? ")
-	lastname = input("\nWhat's your last name? ")
-	print("\nOkay, so your name is:")
-	print(firstname, lastname)
 else:
 	print("I'll take that as a yes!")
+# Keep asking name until the user says "y"
+while question == 'n':
+	wholename = input("\n\nAlright, let's give this another shot.\nWhat's your whole name? ")
+	print("\n", wholename)
+	question = input("\nSo this is your name? [y/n] ")
+	if question == 'y':
+		print("\nI knew that!")
+	elif question == 'n':
+		# Calls back to line #42 if the user says "n"
+		wholename
+	else:
+		print("\nAlright, I give up!")
 
 input("\nThis is the end of this script. Press enter to close")
