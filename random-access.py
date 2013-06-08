@@ -7,7 +7,7 @@ print("The word is: ", word, "\n")
 
 high = len(word)
 low = -len(word)
-
+# prints the values of "word" in random order
 for i in range(10):
 	position = random.randrange(low, high)
 	print("word[", position, "]\t", word[position])

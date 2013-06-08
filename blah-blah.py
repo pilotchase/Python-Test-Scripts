@@ -4,7 +4,7 @@
 print("Printing text on the screen!")
 
 print("Blah", "Blah", "Blah")
-# \n prints the string that follows in a "newline"
+# \n prints the string that follows in a newline
 print("\nLinux is a Kernal, NOT a operating system")
 # Getting users' input using the "input()" function
 input("\nPress enter to make a happy face!")

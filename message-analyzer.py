@@ -5,10 +5,12 @@ message = input("Enter a message: ")
 
 print("\nThe length of your message is", len(message), "characters")
 
-print("\nYour message contains the following vowels:")
+print("\nNow, let's see what characters are vowels and which ones are not:")
 for letter in message:
+	# line #12 converts all the values of the variable "vowels" to uppercase
+	# line #13 & #15 then prints them in lowercase form
 	vowels == message.upper()
 	if letter.lower() in vowels:
-		print(letter.lower())
-	if letter.lower() not in vowels:
-		print("None")
+		print(letter.lower(), "[✓]")
+	elif letter.lower() not in vowels:
+		print(letter.lower(), "[x]")

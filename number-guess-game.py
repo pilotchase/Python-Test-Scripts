@@ -21,8 +21,7 @@ if question == "y":
 	# This line loops "guess" until the user enters the correct number
 	while guess != number:
 		guess = int(input("Wrong, try again: "))
-		# This line adds a number to "tries" every time 
-		# the user is wrong
+		# This line adds a number to "tries" every time the user is wrong
 		tries += 1
 	if guess == number:
 		print("\nYou\'re right! The number was", number, " \nand it only took", tries, "tries!")
