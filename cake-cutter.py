@@ -1,6 +1,6 @@
-# Pizza Slicer
+# Cake Cutter
 # Demonstrates string slicing
-word = "pizza"
+word = "HAPPY BIRTH DAY "
 
 print(
 """
@@ -8,14 +8,15 @@ Slicing 'Cheat Sheet'
 
  0   1   2   3   4   5
  +---+---+---+---+---+
- | p | i | z | z | a |
+ | H | A | P | P | Y |
+ | B | I | R | T | H |
+ |   | D | A | Y |   |
  +---+---+---+---+---+
 -5  -4  -3  -2  -1
 
 """
 )
-print("Enter the beginning and ending index for your slice of 'pizza'.\n \
-Type 'random' for a random slice.")
+print("Enter the beginning and ending index for your slice of 'cake'")
 print("\nPress the enter key at 'Start' to exit")
 # using 'None' to initialize a variable
 # Note that 'None', condition wise, is always 'False'
