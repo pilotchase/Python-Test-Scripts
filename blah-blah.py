@@ -1,6 +1,9 @@
 # The blah-blah program
 # This script demonstrates the "print()" function
 
+# ring the system bell!
+print("\a")
+
 print("Printing text on the screen!")
 
 print("Blah", "Blah", "Blah")
@@ -29,10 +32,15 @@ print("\"Python is simple, lightweight, and fast\"")
 # Combining strings with "+" operator
 print("\nThis " + "is " + "the " + "end " + "of " + "this " + "script\n")
 
-# List of "escape sequences
+# List of "escape sequences"
 # \\ Backlash. Prints 1 backlash
 # \' Single Quote. Prints a single quote
 # \" Double Quote. Prints a double quote
 # \a System Bell. Sounds the system bell
 # \n Newline. Moves cursor to beginning of next line
 # \t Horizontal Tab. Moves the cursor 1 tab stop
+
+# Data Types:
+# integer (a positive or negative whole number)
+# floats (fractional numbers written with a decimal point)
+# booleans (which can be True or False)

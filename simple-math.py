@@ -11,10 +11,11 @@ elif question1 == "two hundred":
 else:
 	print("Sorry you\'re wrong. \nThe correct anwser is 200")
 
-# List of useful mathematical operators
+# List of useful arithmetic operators
 # + Addition
 # - Subtraction
 # * Multiplication
 # / Divison (True)
 # // Division (Integer)
 # % Modules
+# ** Exponentiation

@@ -25,8 +25,9 @@ start = None
 while start != "":
 	start = (input("\nStart: "))
 	if start:
+		# converts value of "start" to an integer
 		start = int(start)
-		
+		# does the same as line #28 but "finish" is the variable that is converted
 		finish = int(input("Finish: "))
 		
 		print("word[", start, ":", finish, "] is", end=" ")
