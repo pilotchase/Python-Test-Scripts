@@ -1,6 +1,6 @@
 # Demonstrates the "len()" function and the "in" operator
 
-vowels = "a", "e", "i", "o", "u", "y"
+vowels = ("a", "e", "i", "o", "u", "y")
 message = input("Enter a message: ")
 
 print("\nThe length of your message is", len(message), "characters")

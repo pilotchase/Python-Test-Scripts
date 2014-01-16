@@ -24,6 +24,7 @@ if question == "y":
 		# This line adds a number to "tries" every time the user is wrong
 		tries += 1
 	if guess == number:
-		print("\nYou\'re right! The number was", number, " \nand it only took", tries, "tries!")
+		print("\nYou\'re right! The number was", number, \
+                        "and it only took", tries, "tries!")
 if question == "n":
 	print("\nOh...okay")

@@ -6,13 +6,19 @@ print(
 """
 Slicing 'Cheat Sheet'
 
- 0   1   2   3   4   5
  +---+---+---+---+---+
  | H | A | P | P | Y |
- | B | I | R | T | H |
- |   | D | A | Y |   |
+ 0                   |
+ |(1)|(2)|(3)|(4)|(5)|
  +---+---+---+---+---+
--5  -4  -3  -2  -1
+ | B | I | R | T | H |
+ 6                   |
+ |(7) (8) (9) (10) (11)
+ +---+---+---+---+---+
+ |   | D | A | Y |   |
+ 12                  16
+ |   |(13)(14)(15)   |
+ +---+---+---+---+---+
 
 """
 )
@@ -29,7 +35,7 @@ while start != "":
 		start = int(start)
 		# does the same as line #28 but "finish" is the variable that is converted
 		finish = int(input("Finish: "))
-		
+
 		print("word[", start, ":", finish, "] is", end=" ")
 		print(word[start:finish])
 
